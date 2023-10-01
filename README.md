@@ -4,7 +4,7 @@ L'esercizio richiedeva di controllare dei numeri di telefono gruppi di 3 per ved
 
 I numeri di telefono vengono convertiti da array a uno string singolo per numero usando il metodo Uniscintelefono
 
-``` 
+```csharp 
 static string Uniscintelefono(string input)
 {
     string stringunita = "";
