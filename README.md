@@ -1,8 +1,8 @@
 # checkTelefono
 
-L'esercizio richiedeva di controllare dei numeri di telefono gruppi di 3 per vedere quale di questi é un numero di telefono valido, restituirlo se lo é o restituire "" se non lo é.
+L'esercizio richiedeva di controllare dei numeri di telefono a gruppi di 3 per vedere quale di questi é un numero di telefono valido secondo dei parametri dati, restituirlo se lo é o restituire "" se non lo é.
 
-I numeri di telefono vengono convertiti da array a uno string singolo per numero usando il metodo Uniscintelefono
+I numeri di telefono vengono convertiti da array, i numeri singoli sono stati salvati come vettori di string, a uno string singolo, per facilitare il controllo successivo, usando il metodo Uniscintelefono
 
 ```csharp 
 static string Uniscintelefono(string input)
