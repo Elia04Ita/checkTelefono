@@ -30,5 +30,5 @@ if (ntelefono.StartsWith("+39") && ntelefono.Length == 13)
 }
 ```
 
-Fatto ciò se nessuno dei numeri rispetta i parametri semplicemente fatto ```csharp return "";```
+Fatto ciò se nessuno dei numeri rispetta i parametri semplicemente fatto ```csharp return ""; ```
 
