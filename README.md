@@ -20,3 +20,17 @@ static string Uniscintelefono(string input)
 }
 ```
 
+Ora che sono convertiti in string devo controllare che il numero di telefono rispetti i parametri prestabiliti usando .StartsWith, che serve a controllare se l'inizio di una stringa corrisponde alla stringa (nel nostro caso +39, 0039 o 3) e .Length, che serve per controllare se una stringa é della lunghezza specificata.
+
+Qui un esempio del primo caso:
+```csharp 
+if (ntelefono.StartsWith("+39") && ntelefono.Length == 13)
+{
+    return s;
+}
+```
+
+Fatto ciò se nessuno dei numeri rispetta i parametri semplicemente viene eseguito
+```csharp
+return "";
+```
